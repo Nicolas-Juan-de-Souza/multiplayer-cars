@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      var firebaseConfig = {
+      
+  apiKey: "AIzaSyDgGLFkDau8fV4JQ5D0MR52wp0CljqjrFE",
+  authDomain: "jogo-de-carros-multijoga-ec2b0.firebaseapp.com",
+  databaseURL: "https://jogo-de-carros-multijoga-ec2b0-default-rtdb.firebaseio.com",
+  projectId: "jogo-de-carros-multijoga-ec2b0",
+  storageBucket: "jogo-de-carros-multijoga-ec2b0.appspot.com",
+  messagingSenderId: "247174080933",
+  appId: "1:247174080933:web:38bf3e010f181d5c21604c"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
